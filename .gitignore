@@ -1,0 +1,16 @@
+# IDE
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# Выходные артефакты редакции/архивации (личные бэкапы — не коммитим)
+out/
+*_cleaned.json
+uuid_map.json

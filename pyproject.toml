@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "claude-archiver"
+version = "0.1.0"
+description = "Редакция и архивация экспортов claude.ai в читаемый Markdown"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+claude-archiver = "claude_archiver.cli:main"
+
+[tool.setuptools]
+packages = ["claude_archiver"]
